@@ -1,0 +1,30 @@
+:root{
+    --primary-font-size: 1.6rem;
+    --secondary-font-size:1rem;
+    --tertiary-font-size: 0.8rem;
+    --main-bgcolor: rgb(81, 132, 132);
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+.main-content-box{
+    background-color: var(--main-bgcolor);
+    height: 100%;
+    color:white;
+}
+
+.main-content h1{
+    padding-top:1rem;
+    text-align: center;
+    font-size: var(--primary-font-size);
+}
+.main-content-para{
+    padding:0.2rem 1.2rem;
+    text-align: justify;
+}
