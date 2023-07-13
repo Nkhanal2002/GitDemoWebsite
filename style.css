@@ -23,6 +23,8 @@ html,body{
     padding-top:1rem;
     text-align: center;
     font-size: var(--primary-font-size);
-    
-
+}
+.main-content-para{
+    padding:0.2rem 1.2rem;
+    text-align: justify;
 }
