@@ -18,13 +18,29 @@ html,body{
     height: 100%;
     color:white;
 }
+.main-content{
+    display:flex;
+}
 
-.main-content h1{
+.main-content-box h1{
     padding-top:1rem;
     text-align: center;
     font-size: var(--primary-font-size);
 }
 .main-content-para{
+    display:grid;
+    grid-template-columns: auto auto;
     padding:0.2rem 1.2rem;
     text-align: justify;
+}
+.image1 img{
+    /* margin-top: 1rem; */
+    margin-left: 4rem;
+    width:60%;
+}
+.image2 img{
+    width:60%;
+    height:50%;
+    margin-top:1rem;
+    margin-left: 4rem;
 }
