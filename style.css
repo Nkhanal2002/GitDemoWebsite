@@ -2,7 +2,7 @@
     --primary-font-size: 1.6rem;
     --secondary-font-size:1rem;
     --tertiary-font-size: 0.8rem;
-    --main-bgcolor: rgb(81, 132, 132);
+    --main-bgcolor: rgb(69, 78, 78);
 
 }
 
@@ -20,6 +20,9 @@ html,body{
 }
 .main-content{
     display:flex;
+}
+.partial-text-color{
+    color:rgb(137, 10, 222)
 }
 
 .main-content-box h1{
